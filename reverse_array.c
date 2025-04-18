@@ -10,7 +10,7 @@ int main()
         scanf("%d", arr + i);
     }
 
-    // Logic to reverse the array in-place
+    // Logic to reverse the array in-places
     int temp;
     for(i = 0; i < num / 2; i++) {
         temp = arr[i];
